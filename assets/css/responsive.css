@@ -1,0 +1,56 @@
+@media (max-width: 479px){
+    .mdl-cell {
+        margin: 8px;
+        width: calc(100% - 16px);
+    }
+    .logo-box {
+        padding: 42px 14px 18px 16px;
+    }
+    
+}
+@media (min-width: 480px) and (max-width: 839px) {
+    .mdl-cell {
+        margin: 8px;
+        width: calc(50% - 16px);
+    }
+}
+@media screen and (min-width:992px) {
+    .mdl-layout__tab-bar-button {
+        display: none !important;
+    }
+}
+@media screen and (max-width:1200px) {
+    .header-input-wrapper {
+        min-width: 200px!important;
+    }
+    .custom-header .mdl-grid {
+        justify-content: center;
+        align-items: center;
+    }
+    .header-form-wrapper form,
+    .sign-in {
+        justify-content: flex-start;
+    }
+    .sign-link {
+        min-width: 32px;
+        padding: 0 8px;
+        font-size: 14px !important;
+    }
+     
+    
+}
+@media screen and (max-width:767px) {
+    .header-form-wrapper button[type=button],
+    .custom-menu-icon {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:567px) {
+    .header-form-wrapper,
+    .sign-in {
+        display: none;
+    }
+
+
+}
